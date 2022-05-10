@@ -29,17 +29,13 @@ Project File Date:  05/10/2022
 Rebuild target 'Target 1'
 compiling Retarget.c...
 compiling bst.c...
-compiling p1_main.c...
-"no source": Error: command-line:  #564: cannot open embedded assembler output file "C:\WINDOWS\TEMP\p480-2": No such file or directory
-p1_main.c: 0 warnings, 1 error
 assembling startup_LPC17xx.s...
+compiling p1_main.c...
 compiling uart.c...
-"no source": Error: command-line:  #564: cannot open embedded assembler output file "C:\WINDOWS\TEMP\p246c-2": No such file or directory
-uart.c: 0 warnings, 1 error
 compiling system_LPC17xx.c...
-"no source": Error: command-line:  #564: cannot open embedded assembler output file "C:\WINDOWS\TEMP\p1cc8-2": No such file or directory
-RTE\Device\LPC1768\system_LPC17xx.c: 0 warnings, 1 error
-".\Objects\SettingUpAProject.axf" - 3 Error(s), 0 Warning(s).
+linking...
+Program Size: Code=2992 RO-data=236 RW-data=856 ZI-data=16512  
+".\Objects\SettingUpAProject.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -66,11 +62,10 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE:5.5.0
 
    * Component: Keil::Device:Startup:1.0.0
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\system_LPC17xx.c
       Include file:  Device\Include\LPC17xx.h
       Source file:   Device\Source\ARM\startup_LPC17xx.s
-      Source file:   Device\Source\system_LPC17xx.c
-      Include file:  RTE_Driver\Config\RTE_Device.h
-Target not created.
 Build Time Elapsed:  00:00:01
 </pre>
 </body>

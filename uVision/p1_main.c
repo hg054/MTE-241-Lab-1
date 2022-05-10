@@ -42,13 +42,13 @@ int main( void )
 {
 	bst_t *p_myTree = (bst_t *) malloc(sizeof( bst_t ) );
 	bool error = __FALSE;
-	S32 min = 0;
+	S32 min = 9999;
 	S32 max = 0;
 	int index = 0;
 	
 	SystemInit();
 
-	printf("Testing\r\n");
+	printf("Testinxdg\r\n");
 	
 	bst_init( p_myTree );
 	
